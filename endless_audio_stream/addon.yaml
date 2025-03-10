@@ -1,0 +1,15 @@
+name: Endless Audio Stream
+version: "1.0"
+slug: endless_audio_stream
+description: "Streams an endless loop of a rain sound using FFmpeg."
+startup: services
+boot: auto
+arch:
+  - armv7
+  - armhf
+  - amd64
+  - aarch64
+ports:
+  8000/tcp: 8000
+options: {}
+schema: {}
